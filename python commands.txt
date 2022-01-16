@@ -1,0 +1,17 @@
+To create project:
+	django-admin startproject project_name
+
+To run:
+	python manage.py runserver
+
+To create app:
+	django-admin startapp app_name
+
+To create admin:
+	python manage.py createsuperuser
+
+Migrations:
+	python manage.py makemigrations
+
+Migrate (To apply changes):
+	python manage.py migrate
